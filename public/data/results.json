@@ -1,0 +1,7 @@
+{
+  "participants": [
+    { "id": 1, "name": "Rahim", "score": 65, "personality": "INTJ" },
+    { "id": 2, "name": "Karim", "score": 78, "personality": "ENFP" },
+    { "id": 3, "name": "Tamanna", "score": 82, "personality": "ISTJ" }
+  ]
+}
