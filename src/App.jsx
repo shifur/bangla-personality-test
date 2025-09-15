@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './dashboard.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,24 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div
+        className="dashboard-grid"
+        role="region"
+        aria-label="Dashboard overview"
+      >
+        <div className="dashboard-card" role="article" aria-label="Sample card">
+          <h2>Example Card</h2>
+          <p>Card content goes here.</p>
+        </div>
+        <div
+          className="dashboard-chart"
+          role="img"
+          aria-label="Placeholder chart"
+          tabIndex="0"
+        >
+          Chart
+        </div>
+      </div>
     </>
   )
 }
